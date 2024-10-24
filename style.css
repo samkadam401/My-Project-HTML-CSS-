@@ -1,0 +1,423 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    background-image: url(./HUD\ Element.gif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    
+}
+.card{
+    width: 90%;
+    height: 320px;
+    background-color: rgba(60, 106, 242, 0.373);
+    border: 2px solid white;
+    /* border-radius: 0 50px 0 50px;  */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 20px; */
+}
+.card h1{
+    font-size: 55px;
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+.card h2{
+    font-size: 35px;
+    text-align: center;
+    font-family: cursive;
+}
+.card h4{
+    font-family: cursive;
+    font-size: 25px;
+
+}
+.card p{
+    font-family: cursive;
+}
+
+.container2{
+    width: 100%;
+    height: auto;
+    /* background-color: black; */
+    margin-top: 40px;
+    display: flex;
+    padding: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.sec1{
+    width: 50%;
+    height: 1800px;
+    /* background-color: beige; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+    
+}
+.sec1 h1{
+    color: rgb(9, 163, 9);
+    font-family: cursive;
+    font-size: 30px;
+    background-color: rgba(236, 244, 237, 0.779);
+}
+.box1{
+    height: 250px;
+    width: 400px;
+    background-color: blue;
+}
+.box1 img{
+    height: 250px;
+    width: 400px;
+
+}
+.box1 button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(19, 30, 183);
+    color: rgb(248, 247, 246);
+    font-family: cursive;
+    border: none;
+    border-radius: 25px;
+}
+.box1 button:hover{
+    background-color: white;
+    color: rgb(28, 38, 218);
+    border: none;
+}
+.box2{
+    height: 250px;
+    width: 400px;
+    background-color: blue;
+}
+.box2 img{
+    height: 250px;
+    width: 400px;
+
+}
+.box2 button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(19, 30, 183);
+    color: rgb(248, 247, 246);
+    font-family: cursive;
+    border: none;
+    border-radius: 25px;
+}
+.box2 button:hover{
+    background-color: white;
+    color: rgb(28, 38, 218);
+    border: none;
+}
+.box3{
+    height: 250px;
+    width: 400px;
+    background-color: blue;
+}
+.box3 img{
+    height: 250px;
+    width: 400px;
+
+}
+.box3 button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(19, 30, 183);
+    color: rgb(248, 247, 246);
+    font-family: cursive;
+    border: none;
+    border-radius: 25px;
+}
+.box3 button:hover{
+    background-color: white;
+    color: rgb(28, 38, 218);
+    border: none;
+}
+.box4{
+    height: 250px;
+    width: 400px;
+    background-color: blue;
+}
+.box4 img{
+    height: 250px;
+    width: 400px;
+
+}
+.box4 button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(19, 30, 183);
+    color: rgb(248, 247, 246);
+    font-family: cursive;
+    border: none;
+    border-radius: 25px;
+}
+.box4 button:hover{
+    background-color: white;
+    color: rgb(28, 38, 218);
+    border: none;
+}
+.box5{
+    height: 250px;
+    width: 400px;
+    background-color: blue;
+}
+.box5 img{
+    height: 250px;
+    width: 400px;
+
+}
+.box5 button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(19, 30, 183);
+    color: rgb(248, 247, 246);
+    font-family: cursive;
+    border: none;
+    border-radius: 25px;
+}
+.box5 button:hover{
+    background-color: white;
+    color: rgb(28, 38, 218);
+    border: none;
+}
+.sec2{
+    width: 50%;
+    height: 1800px;
+    /* background-color: beige; */
+     /* background-color: beige; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     gap: 100px;
+    
+}
+.sec2 h1{
+    color: rgb(9, 163, 9);
+    font-family: cursive;
+    font-size: 30px;
+    background-color: rgba(236, 244, 237, 0.779);
+}
+.box6{
+    height: 250px;
+    width: 400px;
+    background-color: blue;
+}
+.box6 img{
+    height: 250px;
+    width: 400px;
+
+}
+.box6 button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(19, 30, 183);
+    color: rgb(248, 247, 246);
+    font-family: cursive;
+    border: none;
+    border-radius: 25px;
+}
+.box6 button:hover{
+    background-color: white;
+    color: rgb(28, 38, 218);
+    border: none;
+}
+.box7{
+    height: 250px;
+    width: 400px;
+    background-color: blue;
+}
+.box7 img{
+    height: 250px;
+    width: 400px;
+
+}
+.box7 button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(19, 30, 183);
+    color: rgb(248, 247, 246);
+    font-family: cursive;
+    border: none;
+    border-radius: 25px;
+}
+.box7 button:hover{
+    background-color: white;
+    color: rgb(28, 38, 218);
+    border: none;
+}
+.box8{
+    height: 250px;
+    width: 400px;
+    background-color: blue;
+}
+.box8 img{
+    height: 250px;
+    width: 400px;
+
+}
+.box8 button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(19, 30, 183);
+    color: rgb(248, 247, 246);
+    font-family: cursive;
+    border: none;
+    border-radius: 25px;
+}
+.box8 button:hover{
+    background-color: white;
+    color: rgb(28, 38, 218);
+    border: none;
+}
+.box9{
+    height: 250px;
+    width: 400px;
+    background-color: blue;
+}
+.box9 img{
+    height: 250px;
+    width: 400px;
+
+}
+.box9 button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(19, 30, 183);
+    color: rgb(248, 247, 246);
+    font-family: cursive;
+    border: none;
+    border-radius: 25px;
+}
+.box9 button:hover{
+    background-color: white;
+    color: rgb(28, 38, 218);
+    border: none;
+}
+.box10{
+    height: 250px;
+    width: 400px;
+    background-color: blue;
+}
+.box10 img{
+    height: 250px;
+    width: 400px;
+
+}
+.box10 button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(19, 30, 183);
+    color: rgb(248, 247, 246);
+    font-family: cursive;
+    border: none;
+    border-radius: 25px;
+}
+.box10 button:hover{
+    background-color: white;
+    color: rgb(28, 38, 218);
+    border: none;
+}
+
+.con3{
+    height: 40px;
+    width: 30%;
+background-color: rgba(255, 255, 255, 0.504);
+
+}
+
+
+
+
+
+
+@media (max-width:768px) {
+    .main-container{
+        width: 100%;
+        height: auto;
+       
+
+    }
+
+    
+    .card{
+        width: 90%;
+        height: 220px;
+        background-color: rgba(60, 106, 242, 0.373);
+        border: 2px solid white;
+        border-radius: 0px; 
+        /* margin-left: 160px; */
+        padding: 20px;
+    }
+
+
+    .container2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .sec1{
+        width: 100%;
+        height: auto;
+    }
+    .sec2{
+        width: 100%;
+        height: auto;
+        margin-top: 100px;
+    }
+    .con3{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        /* margin-left: 150px; */
+    }
+    
+}
+
+
+
+@media (max-width:480px) {
+    .card{
+        width: 90%;
+        height: auto;
+        background-color: rgba(60, 106, 242, 0.373);
+        border: 2px solid white;
+        border-radius: 0px; 
+        /* margin-left: 17px; */
+        padding: 20px;
+    }
+    .card h1{
+        font-size: 40px;
+    }
+    .card h2{
+        font-size: 20px;
+    }
+    .card h4{
+        font-size: 15px;
+    }
+
+    
+}
